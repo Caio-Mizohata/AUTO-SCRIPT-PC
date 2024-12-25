@@ -24,7 +24,7 @@ echo [4/4] Iniciando a verificacao do disco...
 
 chkdsk /scan
 
-echo  Verificação Concluida com Sucesso!
+echo Verificacao Concluida com Sucesso!
 echo.
 
 pause
