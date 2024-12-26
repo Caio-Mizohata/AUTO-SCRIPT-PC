@@ -27,4 +27,4 @@ chkdsk /scan
 echo Verificacao Concluida com Sucesso!
 echo.
 
-pause
+exit
