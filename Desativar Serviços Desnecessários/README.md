@@ -36,6 +36,14 @@
 
 **Preferência por Métodos Alternativos:** A maioria dos usuários ainda prefere métodos tradicionais de autenticação, como senhas, o que torna o WbioSrvc redundante.
 
+### 4. WSearch (Serviço de Pesquisa)
+
+**Indexação e Busca:** O WSearch (Windows Search) cria e mantém um índice de arquivos, e-mails e conteúdo para acelerar as pesquisas no Explorador de Arquivos e no Menu Iniciar. É útil para quem realiza buscas frequentes por nomes de arquivos ou por conteúdo dentro de documentos.
+
+**Uso de Recursos:** Durante a indexação, especialmente a inicial ou após grandes alterações em arquivos, o serviço pode consumir CPU e causar alto uso de disco, impactando o desempenho e a autonomia da bateria em máquinas mais simples. Em SSDs modernos, o impacto tende a ser menor, mas ainda pode ocorrer.
+
+**Não Essencial:** Para usuários que raramente utilizam a busca do Windows ou não precisam de pesquisa por conteúdo, o WSearch pode ser considerado desnecessário. Desativá-lo reduz o consumo de recursos, mas torna as pesquisas mais lentas e menos completas, inclusive no Outlook, que depende do índice do Windows para buscas rápidas.
+
 ## Aviso importante
 ### Se você estiver usando um dispositivo equipado com um leitor biométrico (como um scanner de impressão digital ou reconhecimento facial), evite desativar o serviço **WbioSrvc (Serviço de Autenticação Biométrica)** para que não haja falhas de login e autenticação
 
